@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondappli"
+    tools:context="com.example.gateway.dakpark.Administration">
+
+    <ImageView
+        android:layout_width="700px"
+        android:layout_height="400px"
+        android:layout_marginLeft="30px"
+        android:src="@drawable/logodp"/>
+    <TextView
+        android:id="@+id/tvadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="90dp"
+        android:text="Administration"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ibcompte"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/compte"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="110dp"
+
+        />
+        <ImageButton
+            android:id="@+id/ibparking"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/parking"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="110dp"
+            />
+te
+        <ImageButton
+            android:id="@+id/ibrecette"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/recette"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="110dp"
+            />
+        <ImageButton
+            android:id="@+id/ibstatistique"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/statistique"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="110dp"
+            />
+        <Button
+            android:id="@+id/bdeconnecteradmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se deconnecter"
+            android:textColor="@android:color/background_light"
+            android:gravity="right"
+            android:layout_marginTop="18dp"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+</LinearLayout>

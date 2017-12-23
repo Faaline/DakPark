@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondappli"
+    tools:context="com.example.gateway.dakpark.Contact">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="700px"
+        android:layout_height="400px"
+        android:layout_marginRight="50px"
+        app:srcCompat="@drawable/logodp"/>
+    <LinearLayout
+        android:layout_marginTop="100px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Une question? Un commentaire"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contactez-nous!"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:layout_marginLeft="200px"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="90px"
+        android:background="@drawable/gmail"
+        android:layout_marginTop="100px"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="90px"
+        android:background="@drawable/tell"
+        android:layout_marginTop="100px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="100px"
+        android:textColor="@color/colorAccent"
+        android:text="Ou visitez notre site:"
+        android:layout_marginLeft="200px"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="90px"
+        android:layout_marginTop="100px"
+        android:background="@drawable/site"
+        />
+
+</LinearLayout>

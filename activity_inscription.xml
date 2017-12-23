@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondappli"
+    tools:context="com.example.gateway.dakpark.Inscription">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="700px"
+        android:layout_height="400px"
+        android:layout_marginRight="50px"
+        app:srcCompat="@drawable/logodp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200px"
+        >
+        <EditText
+            android:layout_marginLeft="250px"
+            android:id="@+id/etnom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Nom"
+            />
+        <EditText
+            android:id="@+id/etprenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Prenom"
+            android:layout_marginLeft="40px"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/etmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Adresse e-mail"
+            />
+        <EditText
+            android:id="@+id/ettel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Telephone"
+            android:layout_marginTop="40px"
+            android:inputType="phone"
+            />
+        <EditText
+            android:id="@+id/etpasse1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Mot de passe"
+            android:layout_marginTop="40px"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/etpasse2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Resaisir mot de passe"
+            android:layout_marginTop="40px"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/bannuleri"
+            android:layout_width="300px"
+            android:layout_height="100px"
+            android:background="@color/colorAccent"
+
+            android:text="Annuler"/>
+        <Button
+            android:id="@+id/bvalideri"
+            android:layout_width="300px"
+            android:layout_height="100px"
+            android:background="@color/colorAccent"
+            android:text="Valider"
+            android:layout_marginLeft="50px"/>
+    </LinearLayout>
+</LinearLayout>

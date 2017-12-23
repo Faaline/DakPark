@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondappli"
+    tools:context="com.example.gateway.dakpark.Abonnement">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="700px"
+        android:layout_height="400px"
+        android:layout_marginRight="50px"
+        app:srcCompat="@drawable/logodp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="200px">
+        <ImageView
+            android:id="@+id/lieu"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            app:srcCompat="@drawable/lieu"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ou voullez-vouz aller?"/>
+        <EditText
+            android:id="@+id/etoua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Rue,Avenue"
+            />
+        />
+        <ImageView
+            android:id="@+id/quand"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            app:srcCompat="@drawable/quand"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quand?"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tdebuta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorAccent"
+                    android:textColor="@color/colorAccent"
+                    android:hint="Debut"
+
+                    />
+
+                <TextView
+                    android:id="@+id/hdebut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="heure debut"
+                    android:textColor="@color/colorAccent"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tfina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="Fin"
+                    android:layout_marginLeft="200px"
+                    android:textColor="@color/colorAccent"
+                    />
+                <TextView
+                    android:id="@+id/hfin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="heure fin"
+                    android:layout_marginLeft="200px"
+                    android:textColor="@color/colorAccent"
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/voiture"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            app:srcCompat="@drawable/voiture"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type de voiture?"/>
+        <EditText
+            android:id="@+id/ettypeva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent"
+            android:hint="Peti,Moyen,Grand"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50px">
+            <Button
+                android:id="@+id/bannulera"
+                android:layout_width="300px"
+                android:layout_height="80px"
+                android:background="@color/colorAccent"
+
+                android:text="Annuler"/>
+            <Button
+                android:id="@+id/bvalidera"
+                android:layout_width="300px"
+                android:layout_height="80px"
+                android:background="@color/colorAccent"
+                android:text="Valider"
+                android:layout_marginLeft="50px"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
